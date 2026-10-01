@@ -1,0 +1,1 @@
+"""Render-compatible application entry point."""
