@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+*.db
+.next/
+node_modules/
+*.tsbuildinfo
+package-lock.json
+dist/
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/models/*.pt
+ml/runs/

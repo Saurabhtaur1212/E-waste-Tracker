@@ -1,0 +1,1 @@
+export default function Stat({label,value,note}:{label:string,value:any,note?:string}){return <div className="card p-5"><p className="text-sm text-slate-400">{label}</p><p className="mt-2 text-3xl font-black">{value}</p>{note&&<p className="mt-1 text-xs text-green-400">{note}</p>}</div>}
